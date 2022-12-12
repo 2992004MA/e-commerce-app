@@ -9,8 +9,6 @@ import '../../layout/shop_layout/cubit/cubit.dart';
 import '../../models/search_model.dart';
 import '../../shared/style/colors.dart';
 
-import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
-
 class SearchScreen extends StatelessWidget {
   var searchController = TextEditingController();
   var formKey = GlobalKey<FormState>();
